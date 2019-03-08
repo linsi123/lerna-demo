@@ -1,6 +1,6 @@
 {
   "name": "@dsp/test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,4 @@
   "publishConfig": {
     "@dsp:registry": "http://a1aedbf20c3bf11e8a48c02ac878f939-1143601360.cn-north-1.elb.amazonaws.com.cn:4873/"
   }
-
-
-
-  
 }
