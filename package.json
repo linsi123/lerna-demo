@@ -19,11 +19,12 @@
   },
   "dependencies": {
     "commitizen": "^3.0.7",
+    "conventional-changelog-cli": "^2.0.12",
     "standard-version": "^5.0.1"
   },
   "scripts": {
     "release": "standard-version",
-    "commit2": "company-commit",
+    "commit2": "company-commit && npm run changelog",
     "commit": "git-cz",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0"
   }
