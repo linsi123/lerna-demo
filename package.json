@@ -24,7 +24,7 @@
   },
   "scripts": {
     "release": "standard-version",
-    "commit2": "company-commit && npm run changelog",
+    "commit2": "company-commit",
     "commit": "git-cz",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   }
