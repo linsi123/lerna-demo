@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "devDependencies": {
+    "@dsp/company-commit": "^1.0.0",
     "conventional-changelog": "^3.0.6",
     "cz-conventional-changelog": "^2.1.0",
     "cz-customizable": "^5.4.0",
@@ -13,8 +14,11 @@
       "path": "cz-conventional-changelog"
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "commitizen": "^3.0.7"
+  },
   "scripts": {
+    "commit2": "company-commit",
     "commit": "git-cz",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0"
   }
