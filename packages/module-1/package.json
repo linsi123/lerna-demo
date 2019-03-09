@@ -11,5 +11,6 @@
   "publishConfig": {
     "access": "public",
     "registry": "http://a1aedbf20c3bf11e8a48c02ac878f939-1143601360.cn-north-1.elb.amazonaws.com.cn:4873/"
+  
   }
 }
