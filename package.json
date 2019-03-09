@@ -1,7 +1,7 @@
 {
   "name": "@dsp/root",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "devDependencies": {
     "@dsp/company-commit": "^1.0.0",
     "conventional-changelog": "^3.0.6",
