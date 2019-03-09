@@ -26,6 +26,6 @@
     "release": "standard-version",
     "commit2": "company-commit && npm run changelog",
     "commit": "git-cz",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   }
 }
