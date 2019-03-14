@@ -7,7 +7,8 @@
     "conventional-changelog": "^3.0.6",
     "cz-conventional-changelog": "^2.1.0",
     "cz-customizable": "^5.4.0",
-    "lerna": "^3.13.0"
+    "lerna": "^3.13.0",
+    "lerna-changelog": "^0.8.2"
   },
   "config": {
     "commitizen": {
@@ -23,9 +24,18 @@
     "standard-version": "^5.0.1"
   },
   "scripts": {
+    "log": "lerna-changelog",
     "release": "standard-version",
     "commit2": "company-commit",
     "commit": "git-cz",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "repositories": "https://github.com/linsi123/lerna-demo",
+  "changelog": {
+    "repo": "https://github.com/linsi123/lerna-demo",
+    "labels": {
+      "feature": "New Feature",
+      "bug": "Bug Fix"
+    }
   }
 }
