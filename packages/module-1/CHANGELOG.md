@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/linsi123/lerna-demo/compare/v0.3.0...v0.3.1) (2019-03-15)
+
+
+### Bug Fixes
+
+* **ddd:** dddd ([a82fe22](https://github.com/linsi123/lerna-demo/commit/a82fe22))
+
+
+
+
+
 # [0.3.0](https://github.com/linsi123/lerna-demo/compare/v0.0.15-alpha.1...v0.3.0) (2019-03-15)
 
 

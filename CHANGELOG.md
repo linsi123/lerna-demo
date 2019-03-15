@@ -1,4 +1,13 @@
-# [0.2.0](http://h/compare/v0.0.15-alpha.1...v0.2.0) (2019-03-15)
+# [0.2.0](http://h/compare/v0.3.0...v0.2.0) (2019-03-15)
+
+
+### Bug Fixes
+
+* **ddd:** dddd ([a82fe22](http://h/commits/a82fe22))
+
+
+
+# [0.3.0](http://h/compare/v0.0.15-alpha.1...v0.3.0) (2019-03-15)
 
 
 ### Bug Fixes
