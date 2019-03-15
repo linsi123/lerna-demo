@@ -28,14 +28,20 @@
     "release": "standard-version",
     "commit2": "company-commit",
     "commit": "git-cz",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "pub": "lerna version --cd-version prerelease --conventional-commits"
   },
   "repositories": "https://github.com/linsi123/lerna-demo",
   "changelog": {
     "repo": "https://github.com/linsi123/lerna-demo",
     "labels": {
-      "feature": "New Feature",
-      "bug": "Bug Fix"
+      "feat": ":rocket: New Feature",
+      "bug": ":bug: Bug Fix",
+      "doc": ":memo: Documentation",
+      "internal": ":house: Internal",
+      "breaking": ":boom: Breaking Change"
     }
   }
 }
+
+
