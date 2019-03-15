@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/linsi123/lerna-demo/compare/v0.0.15-alpha.1...v0.1.0) (2019-03-15)
+
+
+### Features
+
+* **packages/module-1/index.js:** 修改index.js ([d5e8330](https://github.com/linsi123/lerna-demo/commit/d5e8330))
+
+
+
+
+
 ## [0.0.15-alpha.1](https://github.com/linsi123/lerna-demo/compare/v0.0.15-alpha.0...v0.0.15-alpha.1) (2019-03-15)
 
 

@@ -1,4 +1,13 @@
-# [0.2.0](http://h/compare/v0.0.15-alpha.0...v0.2.0) (2019-03-15)
+# [0.2.0](http://h/compare/v0.0.15-alpha.1...v0.2.0) (2019-03-15)
+
+
+### Features
+
+* **packages/module-1/index.js:** 修改index.js ([d5e8330](http://h/commits/d5e8330))
+
+
+
+## [0.0.15-alpha.1](http://h/compare/v0.0.15-alpha.0...v0.0.15-alpha.1) (2019-03-15)
 
 
 ### Features

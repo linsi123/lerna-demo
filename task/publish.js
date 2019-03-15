@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-
+const { join } = require('path');
 const { fork } = require('child_process');
 
 inquirer
@@ -14,8 +14,6 @@ inquirer
       let argv = [
         'publish',
         '--conventional-commits',
-        '--skip-git',
-        '--skip-npm',
         '--yes'
       ];
 
