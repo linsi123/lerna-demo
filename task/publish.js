@@ -18,17 +18,17 @@ inquirer
       ];
 
       if(tag.tag === 'Patch') {
-        argv = argv.concat(
-            '--cd-version patch'
-        )
+        // argv = argv.concat(
+        //     '--cd-version patch'
+        // )
       }else if(tag.tag === 'Minor') {
-        argv = argv.concat(
-            '--cd-version minor'
-        )
+        // argv = argv.concat(
+        //     '--cd-version minor'
+        // )
       }else if(tag.tag === 'Major') {
-        argv = argv.concat(
-            '--cd-version major'
-        )
+        // argv = argv.concat(
+        //     '--cd-version major'
+        // )
       }else if(tag.tag === 'Prerelease') {
         argv = argv.concat(
             '--cd-version prerelease'
