@@ -29,7 +29,7 @@
     "commit2": "company-commit",
     "commit": "git-cz",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "pub": "lerna version --cd-version prerelease --conventional-commits"
+    "pub": "lerna publish --cd-version prerelease --conventional-commits"
   },
   "repositories": "https://github.com/linsi123/lerna-demo",
   "changelog": {
