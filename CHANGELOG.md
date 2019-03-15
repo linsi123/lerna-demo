@@ -1,4 +1,13 @@
-# [0.2.0](http://h/compare/v0.3.1...v0.2.0) (2019-03-15)
+# [0.2.0](http://h/compare/v0.3.2-alpha.0...v0.2.0) (2019-03-15)
+
+
+### Features
+
+* **index.js:** fixed ([d1be4f4](http://h/commits/d1be4f4))
+
+
+
+## [0.3.2-alpha.0](http://h/compare/v0.3.1...v0.3.2-alpha.0) (2019-03-15)
 
 
 ### Features

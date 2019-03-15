@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.2-beta.0](https://github.com/linsi123/lerna-demo/compare/v0.3.2-alpha.0...v0.3.2-beta.0) (2019-03-15)
+
+
+### Features
+
+* **index.js:** fixed ([d1be4f4](https://github.com/linsi123/lerna-demo/commit/d1be4f4))
+
+
+
+
+
 ## [0.3.2-alpha.0](https://github.com/linsi123/lerna-demo/compare/v0.3.1...v0.3.2-alpha.0) (2019-03-15)
 
 

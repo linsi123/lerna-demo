@@ -1,6 +1,6 @@
 {
   "name": "@dsp/test",
-  "version": "0.3.2-alpha.0",
+  "version": "0.3.2-beta.0",
   "description": "",
   "main": "index.js",
   "scripts": {
