@@ -30,7 +30,7 @@ inquirer
         // )
       }else if(tag.tag === 'Prerelease') {
         argv = argv.concat(
-            '--cd-version prerelease'
+            '--cd-version=prerelease'
         )
       }
 
