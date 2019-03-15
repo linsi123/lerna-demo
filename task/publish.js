@@ -7,7 +7,40 @@ inquirer
     type: 'list',
     name: 'tag',
     message: '请选择发布版本的 tag 类型',
-    choices: ['Patch', 'Minor', 'Major', 'Prerelease alpha', 'Prerelease beta'],
+    choices: [
+        {
+            name: 'Patch(0.0.1=>0.0.2)', 
+            value: 'patch'
+        },
+        {
+            name: 'Minor(0.0.1=>0.1.0)',
+            value: 'minor'
+        },
+        {
+            name: 'Major(0.0.1=>1.0.0)',
+            value: 'major'
+        }, 
+        {
+            name: 'Prepatch(0.0.1=>0.0.2-alpha.0)',
+            value: 'prepatch'
+        },
+        {
+            name: 'Preminor(0.0.1=>0.1.0-alpha.0)',
+            value: 'preminor'
+        },
+        {
+            name: 'Premajor(0.0.1=>1.0.0-alpha.0)',
+            value: 'premajor',
+        },
+        {
+            name: 'Prerelease alpha(0.0.1=>0.0.1-alpha.0)',
+            value: 'prerelease alpha'
+        },
+        {
+            name: 'Prerelease beta(0.0.1=>0.0.1-beta.0)',
+            value: 'prerelease beta'
+        }
+    ],
   })
   .then(tag => {
       console.log(tag)
@@ -16,24 +49,36 @@ inquirer
         '--conventional-commits',
       ];
 
-      if(tag.tag === 'Patch') {
+      if(tag.tag === 'patch') {
         argv = argv.concat(
             '--cd-version=patch'
         )
-      }else if(tag.tag === 'Minor') {
+      }else if(tag.tag === 'minor') {
         argv = argv.concat(
             '--cd-version=minor'
         )
-      }else if(tag.tag === 'Major') {
+      }else if(tag.tag === 'major') {
         argv = argv.concat(
             '--cd-version=major'
         )
-      }else if(tag.tag === 'Prerelease alpha') {
+      }else if(tag.tag === 'prepatch') {
+        argv = argv.concat(
+            '--cd-version=prepatch'
+        ) 
+      }else if(tag.tag === 'preminor') {
+        argv = argv.concat(
+            '--cd-version=preminor'
+        ) 
+      }else if(tag.tag === 'premajor') {
+        argv = argv.concat(
+            '--cd-version=premajor'
+        ) 
+      }else if(tag.tag === 'prerelease alpha') {
         argv = argv.concat(
             '--cd-version=prerelease',
             '--preid=alpha'
         )
-      }else if(tag.tag === 'Prerelease beta') {
+      }else if(tag.tag === 'prerelease beta') {
         argv = argv.concat(
             '--cd-version=prerelease',
             '--preid=beta'
