@@ -1,3 +1,30 @@
+# [0.2.0](http://h/compare/v0.0.15-alpha.0...v0.2.0) (2019-03-15)
+
+
+### Features
+
+* **packages/module-a/index.js:** 修改index ([e5e3591](http://h/commits/e5e3591))
+
+
+
+## [0.0.15-alpha.0](http://h/compare/v0.2.0...v0.0.15-alpha.0) (2019-03-15)
+
+
+### Bug Fixes
+
+* **./package/module-1/index.js:** fix bg ([78899b9](http://h/commits/78899b9))
+
+
+### Features
+
+* 4 ([0c20a93](http://h/commits/0c20a93))
+* **d:** d ([590b1a2](http://h/commits/590b1a2))
+* **ffff:** fffff ([a44ad4e](http://h/commits/a44ad4e))
+* **r:** r ([0be4736](http://h/commits/0be4736))
+* **sssss:** ssssssxx ([fe37737](http://h/commits/fe37737))
+
+
+
 # [0.2.0](http://h/compare/v0.1.0...v0.2.0) (2019-03-09)
 
 
