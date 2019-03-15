@@ -3,6 +3,7 @@
 
 ### Features
 
+* **module-1/index.js:** 修改 ([c406581](http://h/commits/c406581))
 * **packages/module-1/index.js:** 修改index.js ([d5e8330](http://h/commits/d5e8330))
 
 
