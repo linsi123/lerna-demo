@@ -14,7 +14,6 @@ inquirer
       let argv = [
         'publish',
         '--conventional-commits',
-        '--yes'
       ];
 
       if(tag.tag === 'Patch') {
