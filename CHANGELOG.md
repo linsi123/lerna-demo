@@ -1,6 +1,11 @@
 # [0.2.0](http://h/compare/v0.0.15-alpha.1...v0.2.0) (2019-03-15)
 
 
+### Bug Fixes
+
+* **packages/module-1/index.js:** console ([aae186b](http://h/commits/aae186b))
+
+
 ### Features
 
 * **module-1/index.js:** 修改 ([c406581](http://h/commits/c406581))
