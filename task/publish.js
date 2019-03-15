@@ -7,7 +7,7 @@ inquirer
     type: 'list',
     name: 'tag',
     message: '请选择发布版本的 tag 类型',
-    choices: ['Patch', 'Minor', 'Major', 'Prerelease'],
+    choices: ['Patch', 'Minor', 'Major', 'Prerelease alpha', 'Prerelease beta'],
   })
   .then(tag => {
       console.log(tag)
@@ -17,20 +17,26 @@ inquirer
       ];
 
       if(tag.tag === 'Patch') {
-        // argv = argv.concat(
-        //     '--cd-version patch'
-        // )
-      }else if(tag.tag === 'Minor') {
-        // argv = argv.concat(
-        //     '--cd-version minor'
-        // )
-      }else if(tag.tag === 'Major') {
-        // argv = argv.concat(
-        //     '--cd-version major'
-        // )
-      }else if(tag.tag === 'Prerelease') {
         argv = argv.concat(
-            '--cd-version=prerelease'
+            '--cd-version=patch'
+        )
+      }else if(tag.tag === 'Minor') {
+        argv = argv.concat(
+            '--cd-version=minor'
+        )
+      }else if(tag.tag === 'Major') {
+        argv = argv.concat(
+            '--cd-version=major'
+        )
+      }else if(tag.tag === 'Prerelease alpha') {
+        argv = argv.concat(
+            '--cd-version=prerelease',
+            '--preid=alpha'
+        )
+      }else if(tag.tag === 'Prerelease beta') {
+        argv = argv.concat(
+            '--cd-version=prerelease',
+            '--preid=beta'
         )
       }
 
